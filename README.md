@@ -2,7 +2,7 @@
 
 **Repository being prepared for `push` operation**
 
-Alarm and Notifier Mobile App particularly applied to debtors management — *I-O(we)-You(U)*!
+Alarm and Notifier Mobile App particularly applied to debtors management — *"I-O(we)-You(U)"*!
 
 Features:
 - CRUD functionality on **Android** with **SQLite** Database
