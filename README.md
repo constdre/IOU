@@ -8,7 +8,7 @@ Features:
 - CRUD functionality on **Android** with **SQLite** Database
 - **Image Save and Display** for each entity
 - "Functionality beyond lifecycle" through `AlarmManager, NotificationManager, and BroadcastReceiver`
-- OLED-screen-phones optimization through UI dark theme.
+- Optimization for OLED-screen-phones through UI dark theme.
 
 
 
