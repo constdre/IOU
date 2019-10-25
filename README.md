@@ -11,7 +11,7 @@ Features:
 - Single **Generic DialogFragment** that can solely handle all Dialogs (and custom) and their management. 
 - **Dynamic Activity** that upholds reusability by providing 2 *separate but related* activities with one.
 - **View Inheritance**: *CurrencyEditText* 
-- Customs styling of `Alert, DatePicker, and TimePicker Dialogs.`
+- Custom styling of `Alert, DatePicker, and TimePicker Dialogs.`
 - **Energy-efficiency** for OLED-screen-phones through UI dark theme.
 - Long, tall mobile devices? enter **One-Handed Optimization ;)**
 
