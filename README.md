@@ -1,6 +1,5 @@
 # IOU
 
-**Repository being prepared for `push` operation**
 
 Alarm and Notifier Mobile App particularly applied to debtors management — *I-O(we)-You(U)*!
 
