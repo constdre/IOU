@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margpad_horizontal_16dp">16dp</dimen>
+    <dimen name="margpad_vertical_10dp">10dp</dimen>
+    <dimen name="margpad_vertical_listitem_15dp">15dp</dimen>
+
+    <dimen name="margin_fab_end_20dp">20dp</dimen>
+    <dimen name="margin_fab_bot_26dp">26dp</dimen>
+    <dimen name="textsize_dialog_label_15sp">15sp</dimen>
+    <dimen name="textsize_dialog_field_18sp">18sp</dimen>
+    <dimen name="padding_dialog_h_40dp">40dp</dimen>
+    <dimen name="padding_dialog_v_30dp">30dp</dimen>
+    <dimen name="margin_dialog_textinbetween_15dp">15dp</dimen>
+    <dimen name="minwidth_dialog_320dp">320dp</dimen>
+    <dimen name="minHeight_dialog_150dp">150dp</dimen>
+    <dimen name="margstart_bullet_15dp">15dp</dimen>
+    <dimen name="margtop_bullet_2dp">5dp</dimen>
+</resources>

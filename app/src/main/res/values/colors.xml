@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/IOU_Orange</color>
+    <color name="colorPrimaryDark">@color/amoled_black</color>
+    <color name="colorAccent">@color/IOU_Orange</color>
+    <color name="IOU_Orange">#D96B0B</color>
+    <color name="dark_gray">#303030</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#2B60DE</color>
+    <color name="teal">#008080</color>
+    <color name="labelGrey">#888888</color>
+    <color name="amoled_black">	#000000</color>
+    <color name="green_success">#37bc22</color>
+</resources>

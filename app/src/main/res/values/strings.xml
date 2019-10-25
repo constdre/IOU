@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">IOU</string>
+    <string name="iou">IOU</string>
+    <string name="title_activity_view_details">ViewDetails</string>
+    <string name="search">Search</string>
+    <string name="submit">Submit</string>
+    <string name="resolve">Resolve</string>
+    <string name="hint_debtor_name">Enter debtor name</string>
+    <string name="label_debtor_email">Email:</string>
+    <string name="hint_debtor_email">sample@sample.com</string>
+    <string name="label_debtor_balance">Balance:</string>
+    <string name="hint_debtor_balance">Enter balance</string>
+    <string name="label_debtor_deadline">Deadline:</string>
+    <string name="hint_debtor_deadline">Set deadline</string>
+    <string name="phoneno">Phone no.</string>
+    <string name="testCall">test call</string>
+    <string name="actions">Actions:</string>
+    <string name="extend_nl_deadline">Extend Deadline</string>
+    <string name="resolve_debt">Resolve Debt</string>
+    <string name="increase_decrease_debt">Increase/Decrease\nDebt</string>
+   <string name="update_debt">Update Debt</string>
+   <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="previous_balance">Previous balance:</string>
+    <string name="new_debt_balance">New debt balance:</string>
+    <string name="dollar_sign">$</string>
+    <string name="peso_sign">Php.</string>
+    <string name="peso_sign_space">Php. </string>
+    <string name="name">Name</string>
+    <string name="dialog_enter_name">Enter Name:</string>
+    <string name="user_icon">user icon</string>
+    <string name="success">Edit Successful!</string>
+    <string name="updated">Updated:</string>
+    <string name="tag_dialog_ok_btn">tag_dialog_ok_btn</string>
+
+    <string name="updated_field_message">%1s: %2s </string>
+    <string name="updated_date_message">%1s: %2s</string>
+    <string name="updated_debt_message">%1s: Php. %2s</string>
+
+
+</resources>

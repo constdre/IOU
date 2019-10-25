@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:minWidth="@dimen/minwidth_dialog_320dp"
+    android:minHeight="150dp"
+    android:paddingBottom="15dp"
+    android:background="@color/dark_gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/dialog_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/IOU_Orange">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter name"
+            android:textSize="15sp"
+            android:textColor="@color/amoled_black"
+            android:background="@android:color/transparent"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tv_enter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For the auto sms reminder"
+        android:textSize="@dimen/textsize_dialog_label_15sp"
+        android:labelFor="@id/et_dialogEnterName_name"
+        android:layout_marginHorizontal="@dimen/padding_dialog_h_40dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/dialog_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/et_dialogEnterName_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.7"
+        android:inputType="textPersonName"
+        android:layout_marginHorizontal="@dimen/padding_dialog_h_40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_enter_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <Button
+        android:id="@+id/btn_dialogEnterName_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginHorizontal="@dimen/padding_dialog_h_40dp"
+        android:layout_marginTop="@dimen/margin_dialog_textinbetween_15dp"
+        android:layout_marginBottom="@dimen/padding_dialog_v_30dp"
+        app:layout_constraintTop_toBottomOf="@id/et_dialogEnterName_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

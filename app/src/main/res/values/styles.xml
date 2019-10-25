@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/amoled_black</item>
+        <item name="android:background">@color/amoled_black</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="android:editTextStyle">@style/DynamicEditText</item>
+        <item name="android:itemBackground">@color/dark_gray</item>
+        <item name="android:buttonStyle">@style/NormalButtonStyle</item>
+        <item name="android:alertDialogTheme">@style/NormalAlertDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@style/AppDatePickerTheme</item>
+        <item name="android:timePickerDialogTheme">@style/AppTimePickerTheme</item>
+    </style>
+
+
+
+
+    <style name="DynamicEditText" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/IOU_Orange</item>
+        <item name="android:cursorVisible">false</item>
+        <!--<item name="android:background">@android:color/transparent</item>-->
+    </style>
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/IOU_Orange</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="FieldLabel" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/IOU_Orange</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="NormalButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/amoled_black</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:background">@drawable/btn_rounded</item>
+
+    </style>
+
+    <style name="NormalAlertDialogTheme" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:titleMarginBottom">20dp</item>
+        <item name="android:windowTitleStyle">@style/NormalDialogTitleStyle</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/IOU_Orange</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/SimpleConfirmDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/SimpleConfirmDialogButtonStyle</item>
+
+    </style>
+
+    <style name="BareDialogTheme" parent="Theme.MaterialComponents">
+
+    </style>
+
+    <style name="NormalDialogTitleStyle">
+        <item name="android:textAppearance">@style/DialogTitleTextAppearance</item>
+    </style>
+    <style name="DialogTitleTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">23dp</item>
+    </style>
+    <style name="NormalTextViewStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SimpleConfirmDialogButtonStyle" >
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+
+    <!--DatePicker and TimePicker style -->
+    <style name="AppDatePickerTheme" parent="android:Widget.Material">
+        <item name="colorAccent">@color/IOU_Orange</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:buttonStyle">@style/DarkDialogButtonStyle</item>
+
+        <!--
+        <item name="android:windowBackground">@color/amoled_black</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:calendarTextColor">@color/colorWhite</item>
+        <item name="android:numbersTextColor">@color/colorWhite</item>
+        <item name="android:amPmTextColor">@color/colorWhite</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+        -->
+    </style>
+
+    <style name="AppTimePickerTheme" parent="android:Widget.Material">
+        <item name="colorAccent">@color/IOU_Orange</item>
+        <item name="android:timePickerStyle">@style/DarkTimePickerStyle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="android:buttonStyle">@style/DarkDialogButtonStyle</item>
+    </style>
+
+
+    <style name="DarkDialogButtonStyle" parent="android:Widget.Material">
+        <item name="android:textColor">@color/IOU_Orange</item>
+    </style>
+    <style name="DarkTimePickerStyle" parent="android:Widget.Material">
+        <item name="android:headerTimeTextAppearance">@style/DarkHeaderTextAppearance</item>
+        <item name="android:timePickerMode">clock</item>
+        <item name="android:numbersSelectorColor">@color/IOU_Orange</item>
+        <item name="android:numbersBackgroundColor">@android:color/transparent</item>
+        <item name="android:numbersTextColor">@android:color/white</item>
+    </style>
+    <style name="DarkHeaderTextAppearance" parent="android:Widget.Material">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+
+</resources>
